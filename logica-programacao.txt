@@ -1,0 +1,21 @@
+Introdução à lógica de programação 
+
+Lógica: Parte da filosofia que trata das formas do pensamento em geral (dedução, indução, hipótese, inferência, etc.) e das operações intelectuais que visam a determinação do que é verdadeiro ou não. A lógica existe para resolver problemas. Problema é uma questão que foge a determinada regra, é um desvio de percurso, o qual impede de atingir um objetivo com eficiência e eficácia. 
+
+Lógica é a organização e planejamento das instruções, assertivas em um algoritmo, a fim de viabilizar a implantação de um programa.  
+
+ 
+
+Técnicas de lógica de programação 
+
+ 
+
+Técnica Linear: Modelo de desenvolvimento e resolução, modelo tradicional, não tem vínculo (estrutura hierárquica, programação de computadores). Execução sequenciada de uma série de uma série de operações, com recursos limitados e uma única dimensão. Exemplo: Levantar, vou até a cozinha, preparo o café, tomo o café.  
+
+ 
+
+Técnica Estruturada: Modelo de desenvolvimento e resolução, Organização, disposição e ordem dos elementos essenciais que compõe um corpo (concreto ou abstrato). Temos mais de uma opção, ela não é linear. Exemplo: Levantar, vou até a cozinha, preparo o café ou o suco, tomo o café ou o suco. 
+
+ 
+
+Técnica Modular: Modelo de desenvolvimento e resolução, definimos partes independentes que são controladas por rum conjunto de regras, e cada módulo, tem o seu conjunto de regras específicos. Dados de entrada – Processo de transformação - Dados de saída. Simplifica o algoritmo, verificação de erro por módulo, decompomos o problema.  Exemplo: O módulo acordar tem suas regras, bem como os módulos preparar bebida e módulo tomar café da manhã.  

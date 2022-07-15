@@ -1,0 +1,152 @@
+ Pensamento computacional
+
+Processo de pensamento envolvido na expressão de soluções em passos computacionais ou algoritmos que podem ser implementados no computador. É sistemático e eficiente, busca a formulação de resolução de problemas de maneira que uma máquina e um humano consigam entender. Através do pensamento computacional adquirimos as competências de pensamento sistemático, colaboração dentro da equipe, criatividade e design, facilitador.  O pensamento computacional está baseado em 4 pilares: 
+
+Decomposição: Consiste em dividir um problema complexo em subproblemas. 
+
+Reconhecimento de padrões: Identificar padrões ou sequências, encontrar similaridades e diferenças entre os problemas.  
+
+Abstração: Extrapolar o conceito do problema para uma forma generalista. Pego do mundo concreto e levo para o mundo das ideias.  
+
+Design de algoritmos: Automatizar, definir passo a passo a solução do problema. É um processo contínuo, deve-se testar e aperfeiçoar. Ciclo: Refinamento - Teste -Análise.  
+
+Raciocínio Lógico: É uma forma de pensamento estruturado, ou raciocínio, que permite encontrar a conclusão ou determinar a resolução de um problema. Destrinchar parte a parte de um problema. O raciocínio lógico está classificado em 3 grupos: 
+
+Indução: Fenômeno observado que a partir daquele fenômeno você consegue extrapolar e determinar leis e teorias relacionadas ao fenômeno. Empirismo.  
+
+Dedução: A partir de leis e teorias você deduz explicações para aquele fenômeno.  
+
+Abdução: A partir de uma conclusão você elabora uma premissa. Não necessariamente a premissa será verdadeira. Diagnóstico. 
+
+A partir de uma inferência, nós temos o pensamento por síntese (construção) e o pensamento analítico (análise). A partir do pensamento sintético, temos a abdução e a indução. E a partir do pensamento analítico temos a dedução.  
+
+Decomposição: Primeiro passo da solução de problemas dentro do conceito de pensamento computacional. Dado um problema complexo, devemos quebra-lo em problemas menores. Portanto, problemas mais fáceis e gerenciáveis. Pode-se usar as estratégias de Analise (examinar os problemas menores), Síntese (Construção, após a análise, combinar os elementos recompondo o problema original de uma forma lógica). A ordem da execução das tarefas menores pode ser sequencial (dependência entre as tarefas, execução em fila) ou paralela (Tem eficiência e tempo, as tarefas podem ser executadas concomitantemente, depois de resolvidas são agregadas).  
+
+Dentro da decomposição temos as variáveis que estão nesses problemas pequenos, que são determinados pela segmentação pela do problema maior. Utilizar maneiras distintas de decompor o mesmo problema.  
+
+Para decompor devemos identificar ou coletar os dados, agregar os dados, para então entregar a funcionalidade, a solução.  
+
+ Padrões: Um modelo de referência em que determina uma estrutura invariante e que pode determinar repetição. Reconhecemos o padrão através de similaridades e diferenças entre os contextos e objetos. Ao detectar padrões podemos generalizar, com objetivo de obter resolução para problemas diferentes. Fazemos isso través de classes e categorias (as categorias irão depender do domínio, do tipo de mídia). O computador reconhece os padrões través de comparação, para isso, precisamos representar os atributos para que a máquina consiga aprender através de um conceito associado aquele objeto, então ele armazena esses dados para consultas posteriores a fim de determinar em qual categoria um objeto se encaixa, a partir disto temos as regras de decisão. A detecção de padrões vem da ideia de extrair características a fim de classificar os seus dados, e você consegue utilizar diferentes métodos de reconhecimento de padrões e aplicar a diferentes contextos, diferentes aplicações, exemplo: Classificação de dados e documentos, reconhecimento de fala e imagem, análise de cenas, etc. 
+
+Abstração: Abstrair é observar um ou mais a elementos avaliando características e propriedades em separado. Já a abstração é um processo intelectual de isolamento de um objeto da realidade, e generalizar tornar-se geral, mais amplo, extenso. Generalização na lógica é a operação intelectual que consiste em reunir numa classe geral, um conjunto de seres ou fenômenos similares. Classificamos os dados através de características que venha de encontro a definição de abstrair, detectar os pontos essenciais e então, generalizar em detrimento do detalhe. A partir destas etapas conseguimos uma representação.  
+
+Algoritmos: Processo de resolução de problemas passo a passo utilizando instruções, e ele precisa ser entendido por um humano e por uma máquina. O algoritmo descreve o problema por meio de ferramentas narrativas, fluxograma ou pseudocódigo. São uma sequência de passos com o objetivo definido para execução de tarefas específicas e conjunto de operações e resultem em uma sucessão finita de ações. O objetivo de um computador é receber, manipular e armazenar os dados.  Para construir um algoritmo devemos compreender o problema, definir os dados de entrada, definir o processamento, definir os dados de saída, utilizar um método de construção, teste e diagnóstico.  
+
+Soma de n° entre 1 e 200 (1 + 2 + 3 + 4 + 5...) 
+
+Dado um maior número e um menor número, vou decrementar o maior (-1) e incrementar o menor (+1) e somando. Com isso consigo um padrão.  
+
+ 
+
+200 + 1 
+
+199 + 2 
+
+198 + 3 
+
+197 + 4...(decomposição) 
+
+ 
+
+200 + 1 = 201 
+
+199 + 2 = 201 
+
+198 + 3 = 201 
+
+197 + 4 = 201... (reconhecimento de padrões) 
+
+
+Com isso consigo um padrão que é uma constante.  
+
+ 
+
+Expressar utilizando abstração, de uma maneira generalista: Quantas vezes o 201 vai se repetir? Já que estou utilizando 2 números a cada soma (Gauss), então: 
+
+ 
+
+200/02=100 (200 = quantidade de termos | 2 = números utilizados a cada soma 
+
+ 
+
+201*100=20.100 (201 = resultado padrão | 100 = quantidade de pares somados 
+
+ 
+
+Expressar em variáveis: Tenho uma soma entre x e y: 
+
+ 
+
+[x,y]-> Intervalo 1 e 200, pertencem ao somatório que vai ser realizado.  
+
+ 
+
+X+y = resultado parcial 
+
+(y-1) + (x+1) = resultado_parcial (incrementar e decrementar) 
+
+ 
+
+Total * resultado_parcial = resultado (100 * 201 = 20.100) porque y/2 = total já que possuo dois números do meu valor sendo utilizados no somatório 
+
+ 
+
+Expressando em algoritmo: 
+
+ 
+
+1 – Receba os valores (x e y) 
+
+2 - Resolva: 
+
+y/2 = total 
+
+3 – Resolva: 
+
+y+x = resultado_parcial 
+
+4 – Ache o total 
+
+Final = total x resultado_parcial 
+
+5 – Imprima o resultado 
+
+ 
+
+Adivinhe o número: 
+
+ 
+
+O número é 1? 
+
+O número é 2?                               Ineficiente 
+
+O número é 3? 
+
+ 
+
+O número é maior que 50? 
+
+Não 
+
+O número é menor que 20?    número de tentativas menor – vai de encontro a busca binária 
+
+Sim 
+
+Até encontrar o número 
+
+ 
+
+Busca binária 
+
+1 – Ordenar o vetor (para buscar um vetor a lista deve ser ordenada) 
+
+2 – Módulo de L/2 (L= tamanho vetor | se o vetor é ímpar, tirar o módulo 
+
+3 – Acessar estrutura 
+
+4 – Comparar valores 
+
+5 – Repita até encontrar o número 
+
+6 – Imprima “Busca bem sucedida.”  

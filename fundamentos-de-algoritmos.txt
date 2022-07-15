@@ -1,0 +1,159 @@
+Fundamento de algoritmos 
+
+ 
+
+Tipologias: A informação que o computador processa é formada por dois tipos de conteúdo: Dados e instruções. Os tipos de dados primitivos são os numéricos (inteiros e reais), caracteres e lógicos (Booleano, verdadeiro – 1 e falso – 0). 
+
+ 
+
+Variáveis: É um tipo de estrutura mutável que pode variar, é inconstante, pode modificar o seu conteúdo, ela não sabe o valor que vai receber mais sabe o tipo de dado que vai receber. Ela pode assumir qualquer um dos valores de um determinado conjunto de valores, restrita ao seu tipo. É uma caixinha que identifica o conteúdo e o tipo de dado. O papel da variável pode ser de ação (modificação de estado) ou de controle (vigiada, controle). Podemos utilizar uma variável para definir uma constante (exemplo: pi = 3,14), que não será alterada.  
+
+ 
+
+As instruções irão determinar as ações que serão executadas nos nossos dados. Para isso utilizamos operadores (binário ou unário), e dentro do cálculo iremos utilizar como input as variáveis e as constantes.  
+
+ 
+
+ 
+
+Estruturas condicionais e operadores 
+
+ 
+
+Estrutura condicional: Condição é o estado de uma pessoa ou coisa. Já condicional expressa uma condição ou suposição, contém ou aplica uma suposição ou hipótese. Se a condição for satisfeita, eu executo determinada operação. Se não for satisfeita, há uma exceção. Pode haver condicionais Simples (apenas verifica se a condição foi satisfeita), Composta (Verifica se a condição foi satisfeita, e se não foi, jogo uma exceção) ou encadeada (Sucessão de estruturas condicionais, Se senão um dentro do outro). 
+
+ 
+
+Operadores relacionais:  Através dos operadores relacionais a estrutura condicional faz as verificações.  
+
+ 
+
+ 
+
+ 
+
+Operadores lógicos (Booleanos): AND (V somente se tudo é V), OR (F apenas se tudo F) e NOT (inversão do resultado lógico, operador de negação). 
+
+ 
+
+Estruturas de repetição: Preciso que um pedaço do meu código seja executado mais uma vez com diferentes parâmetros dentro das suas variáveis, por isso tenho o laço de repetição. O número de repetições é prefixado (condição de parada) ou até a condição ser satisfeita.  
+
+Vetores: Um vetor é caracterizado por uma variável dimensionada com tamanho prefixado. É uma variável que possui uma sequência, um tamanho fixado que recebera n valores, é matriz unidimensional 
+
+Matrizes: Matriz é uma tabela organizada em linhas e colunas no formato m x n, onde m representa o número de linhas e n o número de colunas. É uma coleção de variáveis, coleção de vetores, no qual cada linha é um vetor com tamanho prefixado unidimensional. O índice determina a linha e a coluna de onde estão cada elemento. São contiguas em memória, pu seja, estão armazenadas juntas dentro da memória do computador. 
+
+Funções: As funções são blocos de instruções (código) que realizam tarefas específicas, identificados por nomes e parâmetros.  
+
+ 
+
+Instruções de entrada:  Consiste na inserção e recebimento de dados do mundo real por meio da ação de alguma interface, seja teclado, mouse, arquivos, etc.  
+
+Instruções de saída:  Consiste na impressão dos dados do mundo abstrato por meio da ação de alguma interface. Existem as saídas programadas (pode ser condicional e incondicional, se condicional aguarda o dispositivo para acionar a saída) e saídas por interrupção (definida pelos periféricos).  
+
+Linguagens de programação 
+
+ 
+
+Linguagem de programação: método padronizado composto por um conjunto de regras sintáticas e semânticas de implementação de um código fonte.  
+
+ 
+
+ 
+
+ 
+
+ 
+
+Problemas de decisão: Tem caráter lógico - sim ou não - e tem a ideia de pertencimento, se o n pertence ao conjunto A.  
+
+Problemas de busca: Tem relacionamento binário, objetivo de buscar, x está em A? 
+
+Problemas de otimização: Maximizar ou minimizar recursos de aplicações. 
+
+Tradução: Dado a linguagem de alto nível (programa fonte), o compilador vai traduzir para o código de baixo nível (programa objeto), daí então a máquina vai entender. Na tradução há a geração do programa objeto e execução do programa objeto. A execução é mais rápida e gera programas menores. 
+
+Interpretação: Na interpretação, o programa fonte é executado diretamente, o que torna o processo mais lento. Há maior flexibilidade, linguagem mais fácil de programar.  
+
+Características de um programa: As diretrizes são: Legibilidade (facilidade de leitura, compreensão, coerência nas instruções, definição adequada das estruturas), Redigibilidade (Simplicidade da escrita, suporte a abstração, reuso do código, expressividade), Confiabilidade (verificação de tipos, trata exceções, uso de ponteiros, compatibilidade entre compiladores) e Custo (treinamento, codificação, compilação, execução, infraestrutura).  
+
+Análise 
+
+Análise léxica: Scanner, primeira fase do processo de compilação, a função dela é a leitura do código fonte caractere a caractere e agrupar os caracteres por lexemas (tokens). Neste processo ela vai particionar (identificar), classificar (agrupar) e eliminar o que não é necessário (caracteres em branco, comentários, etc.).  
+
+Análise sintática: Sintaxe é os componentes do sistema linguístico que interligam os constituintes da sentença, atribuindo-lhe uma estrutura. A análise sintática define a corretude do programa e depende da linguagem utilizada.  
+
+Análise semântica: Semântica é o estudo do significado. Incide sobre a relação entre significados como palavras, frases, sinais e símbolos. Erro de semântica seria que não faz o que é esperado.  
+
+Paradigmas de programação: Forma de resolução de problemas com diretrizes e limitações específicas de cada paradigma utilizando linguagem de programação. Pode ser O.O., procedural (chamadas sucessivas e procedimentos separados), funcional (instruções baseadas em funções), estruturado (Estrutura de blocos ninhados), computação distribuída (funções executadas de forma independente) ou lógico.  
+
+Paradigmas estruturados: A ênfase é instruções executadas em sequência. Este conceito traz consigo a ideia de sequência, de decisão (teste lógico), de iteração (funções, laços, condições). Utilizado para problemas simples e diretos.  
+
+Programação orientada a objetos: Paradigma de programação baseado na utilização de objetos e suas interações, análogo ao mundo real. Um objeto é descrito por características específicas (O que tenho - atributos), comportamento (sou capaz de fazer - métodos) e estado (como faço - estados). Os pilares da programação O.O. são herança (uma classe filha herda as características da classe mãe), encapsulamento, polimorfismo e abstração.  
+
+Portugol 
+
+programa{ 
+
+    funcao inicio(){ 
+
+        Inteiro x,y 
+
+} 
+
+        escreva("Digite os números para executar a soma do intervalo") 
+
+        leia(x) 
+
+        leia(y) 
+
+        escreva(soma_intervalo(x,y)) 
+
+   } 
+
+    funcao inteiro soma_intervalo(inteiro x,inteiro y){ 
+
+        inteiro total,resultado_parcial 
+
+        total=y/2 
+
+        resultado parcial=y+x 
+
+        Inteiro resultado = total *resultado_parcial 
+
+Retorne resultado}} 
+
+ 
+
+Média do aluno 
+
+programa{ 
+
+    funcao inicio(){ 
+
+        Real a,b,nota_a, nota_b 
+
+        escreva("Digite as notas da p1 e p2 do aluno A") 
+
+        leia(a) 
+
+        leia(b) 
+
+   } 
+
+        escreva("Digite as notas da p1 e p2 do aluno B") 
+
+        leia(nota_a) 
+
+        leia(nota_b) 
+
+        escreva("Média do aluno A:media_aluno(a,b)) 
+
+        escreva("\nMédia do aluno B:",media_aluno(nota_a,nota_b)) 
+
+   } 
+
+    funcao real media aluno(real nota_a,real nota_b){ 
+
+        retorne(nota_a+nota_b)/2}} 
+
+ 

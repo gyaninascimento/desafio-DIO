@@ -1,0 +1,86 @@
+Git e Github 
+
+Git:  O GIT é um Sistema de Controle de Versões Distribuído — ou DVCS. Estes sistemas de controle possuem a função de registrar quaisquer alterações feitas em cima de um código, armazenando essas informações e permitindo que, caso seja necessário, um programador possa regredir a versões anteriores de uma aplicação de modo simples e rápido. Este tipo de sistema também simplifica muito o processo de compartilhamento de um projeto com um time. 
+
+Comandos cmd 
+
+-cd:   O comando CD significa "mudar diretório" e permite que abra diferentes diretórios ou pastas no disco rígido. "CD/" e aperte "Enter" para navegar até o diretório principal do drive C. "CD/" sempre te trará de volta ao diretório principal. 
+
+-dir: O comando DIR é uma função poderosa do prompt de comando do Windows que lista todos os arquivos e subdiretórios contidos em um diretório específico. 
+
+-mkdir: Cria um diretório ou subdiretório. Extensões de comando, que são habilitadas por padrão, permitem que você use um único comando mkdir para criar diretórios intermediários em um caminho especificado. Esse comando é o mesmo que o comando MD. mkdir [<drive>:]<path> 
+
+del / rmdir; Remove (ou seja, exclui) uma pasta. Especifica o local e o nome da pasta que você deseja excluir. Remove a pasta especificada e todas as subpastas, inclusive os arquivos. rmdir [<drive>:]<path> [/s [/q]] 
+
+Objetos internos do GIT 
+
+BLOBS: Contém metadados do git, tipo do objeto, tamanho do arquivo, tamanho da string, etc. Bloco básico de composição.  
+
+TREES: Elas armazenam os Blobs, e aponta para tipos blobs diferentes commits, também contém metadadose guarda o nome do arquivo. Monta a estrutura de onde estão localizados os arquivos. 
+
+ 
+
+COMMITS: Objeto que junta todos os dados da alteração. Ele aponta para uma árvore. 
+
+Chave SSH e Token - Autenticação 
+
+Chave SSH: É uma forma de estabelecer uma conexão segura e encriptada entre duas máquinas. A conexão é estabelecida com 2 chaves, uma púbica (coloca no git) e outra privada.  
+
+Token de acesso pessoal: É gerado no GitHub, tem que guardar na máquina e a cada commit, digitar a senha.  
+
+Configurando o git/github 
+
+ 
+ 
+
+ 
+
+Comandos GIT 
+
+-git init: cria a pasta nodiretorio, iniciar repositório 
+
+-git add: Mover arquivos e iniciar versionamento 
+
+-git commit –m “anotações”: Fazer commit 
+
+Git push origin main: enviar todos os commits locais para o repositório remoto 
+
+Ls: mostrar as pastas, retorna com a lista de conteúdo contido naquele diretório especifico.  
+
+Cd nomepasta/: entrar no diretório 
+
+ctrl + L para limpar o terminal 
+
+mkdir: Cria um diretório ou subdiretório. Extensões de comando, que são habilitadas por padrão, permitem que você use um único comando mkdir para criar diretórios intermediários em um caminho especificado.  
+
+del / rmdir; Remove (ou seja, exclui) uma pasta. Especifica o local e o nome da pasta que você deseja excluir. Remove a pasta especificada e todas as subpastas, inclusive os arquivos. rmdir [<drive>:]<path> [/s [/q]] 
+
+Flag –a: mostra arquivos ocultos 
+
+git config --global user.email “gyanipnascimento@gmail.com”: configuração inicial para ter autor atrelado aos commits. 
+
+Git status: mostra o status dos arquivos 
+
+Mv nome do arquivo /pasta/: mover arquivo para uma pasta 
+
+Echo > nome do arquivo.ext: criar arquivo 
+
+Git clone https://...: clonar repositório 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
